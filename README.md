@@ -10,3 +10,5 @@ São 4 endpoints:
 >.PUT(id): Endpoint que recebe o id do cartão que vai ser alterado e suas alterações
 
 >.DELETE(id): Endpoint que recebe um id e deleta o cartão com o id correspondente 
+
+Tutorial disponivel em PDF e também no GoogleDocs https://bityli.com/dvK02
