@@ -22,7 +22,7 @@ namespace CardGenerator.Controllers
             _cardRepository = cardRepository;
         }
 
-        [HttpGet("user/{e-mail}")]
+        [HttpGet("user/{email}")]
         public async Task<IEnumerable<Card>> GetCardsByEmail(String email)
         {
             var cards = await _cardRepository.Get();
@@ -33,7 +33,7 @@ namespace CardGenerator.Controllers
         }
 
 
-        [HttpPost("{e-mail}")]
+        [HttpPost("{email}")]
         public async Task<ActionResult<String>> PostCard(string email)
         {
             Card card = new Card();
