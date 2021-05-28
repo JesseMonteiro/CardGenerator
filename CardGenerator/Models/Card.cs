@@ -14,9 +14,6 @@ namespace CardGenerator.Models
         public string CardNumber { get; set; }
         public string Email { get; set; }
 
-     //   [ForeignKey("CardHolder")]
-    //    public int IdTitular { get; set; }
-     //   public virtual CardHolder CardHolder { get; set; }
     }
 
 
